@@ -252,6 +252,7 @@ app.openapi(
         prioritizationFeeLamports: 'auto',
       },
     });
+    console.log("trigger a deploy")
     const response: ActionsSpecPostResponse = {
       transaction: swapResponse.swapTransaction,
     };
